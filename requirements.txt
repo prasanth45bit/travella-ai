@@ -1,7 +1,13 @@
 fastapi
 uvicorn
-transformers
-torch
-pymongo
 pandas
+numpy
+scikit-learn
+joblib
+pydantic
 python-dotenv
+requests
+aiohttp
+jinja2
+pymongo
+fastapi[all]
