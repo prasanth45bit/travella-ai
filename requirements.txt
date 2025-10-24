@@ -1,6 +1,7 @@
 fastapi
-uvicorn[standard]
-pymongo
-torch
+uvicorn
 transformers
+torch
+pymongo
+pandas
 python-dotenv
