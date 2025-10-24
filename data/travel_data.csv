@@ -1,0 +1,27 @@
+destination_name,time_slot,place_name,category,price,duration_hours
+Paris,evening,Eiffel Tower,Sightseeing,25,2.5
+Paris,afternoon,Louvre Museum,Museum,17,3.0
+Paris,morning,Notre-Dame Cathedral,Religious Site,0,2.0
+London,morning,Buckingham Palace,Historical Landmark,30,2.0
+London,evening,London Eye,Observation Wheel,32,1.5
+Tokyo,evening,Tokyo Tower,Observation Deck,20,2.0
+Tokyo,morning,Senso-ji Temple,Temple,0,2.0
+New York City,morning,Statue of Liberty,Monument,25,3.0
+New York City,afternoon,Central Park,Park,0,2.0
+Dubai,evening,Burj Khalifa,Skyscraper,40,2.0
+Dubai,afternoon,Palm Jumeirah,Island,0,3.0
+Rome,morning,Colosseum,Historical Landmark,18,2.5
+Rome,afternoon,Pantheon,Religious Site,0,1.0
+Rome,morning,Colosseum,Historical Landmark,18,2.0
+Rome,morning,Vatican City,Religious & Museum,21,3.0
+Singapore,evening,Marina Bay Sands,Resort & Landmark,50,2.0
+Singapore,afternoon,Gardens by the Bay,Park & Garden,0,2.5
+Bali,evening,Uluwatu Temple,Temple,5,2.0
+Bali,morning,Tegallalang Rice Terrace,Nature,0,2.0
+Hong Kong,evening,Victoria Peak,Observation Deck,10,2.0
+Hong Kong,morning,Hong Kong Disneyland,Theme Park,75,6.0
+Cairo,morning,Pyramids of Giza,Historical Landmark,20,3.0
+Cairo,afternoon,Egyptian Museum,Museum,10,2.0
+
+
+
