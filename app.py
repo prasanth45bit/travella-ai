@@ -1,8 +1,20 @@
 from fastapi import FastAPI, Query
 from pydantic import BaseModel
 from planner import TripPlanner
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+# ✅ Allow CORS for all domains (useful for testing)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # or specify frontend URL: ["https://your-frontend.onrender.com"]
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 planner = TripPlanner(db_uri="mongodb+srv://travella:travella@prasanth.kxcqdtd.mongodb.net/travella?retryWrites=true&w=majority", db_name="travella")
 
 
